@@ -12,7 +12,7 @@ html {
 #header {
   width: 100%;
   background-color: transparent;
-  transition: background ease-out 0.2s;
+  transition: ease-out 0.2s;
 }
 #header .nav-link {
   text-transform: uppercase;
@@ -94,27 +94,58 @@ html {
 .faq {
   padding-top: 300px;
 }
-.faq h2 {
+.faq h1 {
   font-size: 48px;
   font-weight: 600;
   color: #fff;
 }
-.faq h2 span {
+.faq h1 span {
   color: #9bf00b;
 }
 .faq .accordion-item {
   background: transparent;
   color: #c0c0c0;
 }
-.faq .accordion-body {
-  border-bottom: solid 2px #2e2e2e;
+
+.accordion-body {
+  font-weight: 500;
+  font-size: 18px;
 }
+.accordion-flush .accordion-item .accordion-button {
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .faq .accordion-header button {
   background-color: transparent;
   box-shadow: none;
   outline: none !important;
   color: #fff;
 }
-.faq .accordion-header button svg {
-  color: #9bf00b;
+/* Alterar cor do icone */
+.accordion-button:not(.collapsed) {
+  background-color: #f0f0f0;
+  color: #fff;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%239bf00b'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+footer {
+  padding-top: 180px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 18px;
+}
+footer ul li {
+  display: flex;
+  list-style: none;
+  margin-left: 56px;
+}
+footer ul li:first-child {
+  margin-left: 0;
 }
