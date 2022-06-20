@@ -1,63 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-    <meta charset="UTF-8">
-    <title class="title">Barbearia Gama</title>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-
-        <link rel="stylesheet" href="style.css">
- </head>
- <body>
-
-    <!--Menu de Navegação-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img class="custom-logo" src="assets/logo-xbox.svg" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Visão Geral
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#jogos">Jogos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#galeria">Galeria</a>    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#unbox">Unbox</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link custon-hover" href="#color-btn">Ver disponibilidade</a>
-                    </li>
-                </ul>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <title class="title">Xbox</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg justify-content-between">
+          <a class="navbar-brand" href="#"
+            ><img src="/assets/logo-xbox.svg" class="img-fluid"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Visão Geral</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Jogos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Unbox</a>
+              </li>
+            </ul>
+            <form class="ps-lg-5">
+              <a class="btn btn-light order-1 order-lg-0" href="#"
+                >Ver Disponibilidade</a
+              >
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- SEÇÃO ABOUT -->
+    <section class="about">
+      <div class="container">
+        <div class="row d-flex flex-column">
+          <div class="col-lg-6 col-xxl-5 text-center mx-auto mb-5">
+            <h1>Xbox series X</h1>
+            <h5>pedido antecipado</h5>
+          </div>
+          <div class="col-lg-6 mx-auto" id="gradient">
+            <img src="/assets/xbox-series.png" class="img-fluid" />
+          </div>
         </div>
-    </nav>
-    </nav>
-    <!--Fim do menu de navegação-->
-<section class="about full-screen d-lg-flex justify-content-center align-items-center">
-   <img src="assets/image-about.jpg" class="img-fluid" alt="Responsive image">
-
-</section>
- </body>
+      </div>
+    </section>
+    <!-- FIM SEÇÃO ABOUT -->
+    <!-- SEÇÃO PRESENTATION -->
+    <section class="presentation">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-lg-6 col-xxl-5 text-left mx-auto mb-5">
+            <h2><span>Desempenho </span> aperfeiçoado</h2>
+            <p>
+              O controle sem fio Xbox traz um design elegante, conforto refinado
+              e compartilhamento instantâneo para um favorito comum.
+            </p>
+          </div>
+          <div class="col-lg-6 mx-auto" id="gradient">
+            <img src="/assets/xbox-controler.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FIM SEÇÃO PRESENTATION -->
+    <!-- SEÇÃO JOGOS -->
+    <section id="games">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-md-3 mx-auto">
+            <a href="#">
+              <img src="/assets/far_cry.jpg" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-3 mx-auto">
+            <a href="#">
+              <img src="assets/forza_horizon.webp" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-3 mx-auto">
+            <a href="#">
+              <img src="assets/fifa_22.png" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-3 mx-auto">
+            <a href="#">
+              <img src="assets/minecraft_dungeons.jpg" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FIM SEÇÃO JOGOS -->
+    <section class="faq">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-lg-6 col-xxl-5 text-left mx-auto mb-5">
+            <h2><span>Perguntas</span> frequentes</h2>
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Meus jogos anteriores do Xbox vão funcionar no Xbox Series X?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  O que está incluído no Xbox Series X?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Como sei se minha TV é compatível com 4K?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0b9da436a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: #0c0c0c;
+  font-family: "Inter", sans-serif;
+}
+#header {
+  width: 100%;
+  background-color: transparent;
+  transition: background ease-out 0.2s;
+}
+#header .nav-link {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 28px;
+  margin-right: 28px;
+  font-size: 17px;
+  border-bottom: solid 4px transparent;
+  color: #ffff;
+}
+#header .btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #9bf00b;
+  border-radius: 0;
+  font-size: 15px;
+  border: none;
+}
+#header .nav-link:hover {
+  border-bottom: solid 3px #9bf00b;
+}
+
+.navbar-toggler .fa {
+  color: #fff;
+  font-size: 36px;
+}
+.about {
+  padding-top: 283px;
+}
+.about h1 {
+  color: #fff;
+  font-size: 72px;
+}
+.about h5 {
+  color: #9bf00b;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-top: 48px;
+}
+#gradiente {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(134, 207, 9, 0.258984) 20.31%,
+      rgba(155, 240, 11, 0.3) 23.53%,
+      rgba(0, 219, 0, 0.3) 35.42%,
+      rgba(0, 123, 0, 0.3) 40.63%,
+      rgba(0, 132, 0, 0.3) 49.51%
+    )
+    no-repeat center bottom;
+  background-size: cover;
+  border: 1px solid #000000;
+  filter: blur(250px);
+  background-size: cover;
+}
+.presentation {
+  padding-top: 300px;
+}
+.presentation h2 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #fff;
+}
+.presentation h2 span {
+  color: #9bf00b;
+}
+.presentation p {
+  font-size: 23px;
+  font-weight: 500;
+  color: #c0c0c0;
+  padding-top: 40px;
+}
+#games {
+  padding-top: 300px;
+}
+.faq {
+  padding-top: 300px;
+}
+.faq h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+}
+.faq h2 span {
+  color: #9bf00b;
+}
+.faq .accordion-item {
+  background: transparent;
+  color: #c0c0c0;
+}
+.faq .accordion-body {
+  border-bottom: solid 2px #2e2e2e;
+}
+.faq .accordion-header button {
+  background-color: transparent;
+  box-shadow: none;
+  outline: none !important;
+  color: #fff;
+}
+.faq .accordion-header button svg {
+  color: #9bf00b;
+}
