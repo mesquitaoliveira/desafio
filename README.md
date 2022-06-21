@@ -56,3 +56,8 @@ Trabalho elaborado pelo grupo:
 - [Eduardo Silva](https://github.com/EduardoRS78)
 - [Laio Gomes](https://github.com/LaioGomes)
 - [Ismael Freire](https://github.com/mesquitaoliveira)
+
+---
+<a href="https://github.com/mesquitaoliveira/desafio/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mesquitaoliveira/desafio" />
+</a>
