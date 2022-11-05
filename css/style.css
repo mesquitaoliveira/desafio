@@ -172,6 +172,9 @@ html {
 footer {
   padding-top: 180px;
 }
+.info-footer {
+  align-items: center;
+}
 footer ul {
   margin: 0;
   padding: 0;
