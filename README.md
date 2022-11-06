@@ -12,7 +12,14 @@
 
 </p>
  
+ ## Captura de Tela versão Final
+---
+<p align="center">
+  <img src="assets/Tela Final.png"
+    alt="screenshot" width="100%">
+</p>
 
+---
 ## Desafio: Criar uma landing page com html, css e bootstrap
 
 Este template foi executado em grupo, para que pudessemos aplicar nossos conhecimentos adquiridos ao longo da academia.
@@ -57,7 +64,3 @@ Trabalho elaborado pelo grupo:
 - [Laio Gomes](https://github.com/LaioGomes)
 - [Ismael Freire](https://github.com/mesquitaoliveira)
 
----
-<a href="https://github.com/mesquitaoliveira/desafio/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mesquitaoliveira/desafio" />
-</a>
