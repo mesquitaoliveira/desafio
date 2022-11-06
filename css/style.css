@@ -192,6 +192,9 @@ footer ul li:first-child {
   margin-left: 0;
   flex-direction: row-reverse;
 }
+.copyright {
+  justify-content: end;
+}
 
 /*===========*\
 =Media queries =
