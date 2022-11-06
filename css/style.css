@@ -190,6 +190,7 @@ footer ul li {
 }
 footer ul li:first-child {
   margin-left: 0;
+  flex-direction: row-reverse;
 }
 
 /*===========*\
