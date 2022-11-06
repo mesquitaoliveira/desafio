@@ -187,6 +187,7 @@ footer ul li {
   display: flex;
   list-style: none;
   padding-left: 56px;
+  align-items: center;
 }
 footer ul li:first-child {
   margin-left: 0;
