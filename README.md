@@ -1,4 +1,4 @@
-<h1 align=center>Xbox Landing Page - <a target="_blank" href="https://desafio-ten.vercel.app/" rel="nofollow">Demo</a> </h1>
+<h1 align=center>Xbox Landing Page V.2 - <a target="_blank" href="https://desafio-ten.vercel.app/" rel="nofollow">Demo</a> </h1>
 
 <p align=center>
   <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap">
@@ -22,12 +22,10 @@
 ---
 ## Desafio: Criar uma landing page com html, css e bootstrap
 
-Este template foi executado em grupo, para que pudessemos aplicar nossos conhecimentos adquiridos ao longo da academia.
 
 ## Observações importante:
-- optamos por desenvolver nossa página web com os arquivos organizados localmente, a fim de deixar o ambiente de desenvolvimento
+- optamos por desenvolver a página web com os arquivos organizados localmente, a fim de deixar o ambiente de desenvolvimento
 o mais organizado possível. 
-- todo o conteúdo produzido tem cunho educacional, logo a medida que adiquirirmos conheciemento iremos modifica-lo;
 
 ---
 ## Bootstrap V5.0
